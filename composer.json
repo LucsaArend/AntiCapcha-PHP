@@ -1,5 +1,6 @@
 {
     "name": "lucsaarend/anticaptcha-php",
+    "version": "1.0.0",
     "description": "composer-wrapper for official anticaptcha api implementation",
     "type": "library",
     "require": {},

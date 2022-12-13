@@ -1,0 +1,11 @@
+{
+    "name": "lucsaarend/anticaptcha-php",
+    "description": "composer-wrapper for official anticaptcha api implementation",
+    "type": "library",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AntiCaptcha\\": "src/"
+        }
+    }
+}

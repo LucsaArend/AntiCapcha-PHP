@@ -1,9 +1,13 @@
 {
     "name": "lucsaarend/anticaptcha-php",
     "version": "1.0.0",
+    "license": "MIT",
     "description": "composer-wrapper for official anticaptcha api implementation",
     "type": "library",
-    "require": {},
+    "require": {
+        "php": ">=7.0",
+        "ext-curl": "*"
+    },
     "autoload": {
         "psr-4": {
             "AntiCaptcha\\": "src/"
